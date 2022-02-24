@@ -1,0 +1,123 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color: #f6f6f6;
+  padding: 50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 770px;
+  width: 100%;
+  height: 90%;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid black;
+}
+
+.lefti {
+  height: 50px;
+  width: 100px;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.righti {
+  margin-top: 50px;
+  margin-left: auto;
+  height: 50px;
+  width: 70px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.infos {
+  margin-top: 10px;
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  flex-wrap: wrap;
+}
+
+.info1 {
+  display: inline-flexbox;
+  width: 200px;
+  height: auto;
+}
+
+.info2 {
+  display: inline-flexbox;
+  width: 200px;
+  height: auto;
+}
+
+.info3 {
+  margin-left: auto;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.line {
+  width: 30%;
+  height: 100px;
+  border-bottom: 5px solid black;
+  position: absolute;
+}
+
+.circle-wrapper {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+}
+
+.blue {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.c1 {
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  background-color: lightblue;
+  align-items: space-around;
+  margin: 10px;
+}
+
+.c2 {
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  background-color: darkgrey;
+  margin: 10px;
+}
+
+.c3 {
+  width: 14em;
+  height: 14em;
+  border-radius: 50%;
+  background-color: rgb(16, 187, 107);
+  margin: 10px;
+}
+
+.blue {
+  justify-content: center;
+}
