@@ -1,0 +1,186 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  height: 94vh;
+
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  border: solid black 2px;
+  margin: 7px;
+}
+.left {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 7px;
+  border-right: solid black 2px;
+}
+.topper {
+  font-size: x-small;
+  margin-bottom: 26px;
+}
+.left div:nth-child(2) {
+  font-family: Geneva;
+  margin-bottom: 13px;
+  font-size: 2.1vw;
+}
+.list {
+  background-color: white;
+  border-top: solid #505050 1.5px;
+  margin-left: -7px;
+  margin-right: -7.1px;
+  min-height: 2vw;
+  max-height: 3vw;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+.lbot {
+  margin-top: auto;
+  font-size: 1vw;
+}
+h2 {
+  font-weight: bold;
+}
+.h3bot {
+  margin-bottom: 22px;
+}
+#gray {
+  background-color: lightgray;
+}
+#bline {
+  border-bottom: solid #505050 1.5px;
+}
+.middle-grid {
+  display: grid;
+  width: 100%;
+  height: 94vh;
+  grid-template:
+    "letters-top sofa sofa sofa room room room" 1fr
+    "letters-top sofa sofa sofa room room room" 1fr
+    "letters-top sofa sofa sofa plant plant etc4" 1fr
+    "letters-top sofa sofa sofa etc3 chairs chairs" 1fr
+    "letters-bot etc1 etc2 map map map map" 1fr / 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.letters-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+  grid-area: letters-top;
+}
+#think {
+  font-family: Geneva;
+  margin-bottom: 17px;
+  font-size: 3.3vw;
+}
+#disc {
+  font-size: 1.2vw;
+  margin-bottom: 10px;
+}
+.letters-bot {
+  border-top: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  grid-area: letters-bot;
+}
+#ser {
+  font-size: x-small;
+  margin-bottom: 6vw;
+}
+#dsc {
+  font-family: Geneva;
+  font-size: 20px;
+}
+
+.sofa {
+  grid-area: sofa;
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_960_720.jpg");
+  background-position-x: -5px;
+  border: solid black 2px;
+  border-top: 0;
+}
+.room {
+  grid-area: room;
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg");
+  background-size: cover;
+  border-bottom: solid black 2px;
+}
+.map {
+  grid-area: map;
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/15/16/48/winter-1142029_960_720.jpg");
+  background-size: cover;
+  border-left: solid black 2px;
+}
+.plant {
+  grid-area: plant;
+  background-image: url("https://cdn.pixabay.com/photo/2019/08/25/13/34/dogs-4429513_960_720.jpg");
+  background-size: cover;
+  background-position-x: center;
+  border-right: solid black 2px;
+}
+.chairs {
+  grid-area: chairs;
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/19/10/00/beach-814679_960_720.jpg");
+  background-size: cover;
+  background-position-x: -17px;
+  border: solid black 2px;
+  border-right: 0;
+}
+.etc1 {
+  grid-area: etc1;
+  border-left: solid black 2px;
+  background-image: url("https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg");
+  background-position-x: center;
+  background-size: cover;
+  border-right: solid black 2px;
+}
+.etc2 {
+  grid-area: etc2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+#e2 {
+  background-image: url("https://cdn.pixabay.com/photo/2012/01/06/01/17/veiltail-11453_960_720.jpg");
+  background-size: cover;
+  border-bottom: solid black 2px;
+}
+#e1 {
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/12/17/04/fish-4925732_960_720.png");
+  background-size: contain;
+  background-position-y: center;
+}
+.etc3 {
+  grid-area: etc3;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/50/chair-1840011_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+.etc4 {
+  grid-area: etc4;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+#e3 {
+  background-image: url("https://cdn.pixabay.com/photo/2021/07/13/11/34/cat-6463284_960_720.jpg");
+  background-size: cover;
+  border-bottom: solid black 2px;
+}
+#e4 {
+  background-image: url("https://cdn.pixabay.com/photo/2018/04/23/14/38/adorable-3344414_960_720.jpg");
+  background-size: cover;
+}

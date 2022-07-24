@@ -1,0 +1,264 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+#toppest {
+  margin-top: 20px;
+  width: 100%;
+  height: 42px;
+  background-color: #515151;
+  display: flex;
+  gap: 3px;
+}
+.top {
+  display: flex;
+  background-color: white;
+  padding-left: 10px;
+  height: 35px;
+  width: 19%;
+  align-self: center;
+  align-items: center;
+  font-size: small;
+  font-family: "Arial Narrow";
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  gap: 3px;
+  background-color: #515151;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(33vmin, 1fr));
+  grid-template-rows: repeat(auto, minmax(22vmin, 1fr));
+}
+.topinfo {
+  display: flex;
+  padding: 9px;
+  justify-content: space-between;
+  font-size: small;
+  font-family: "Arial Narrow";
+  font-weight: bold;
+  color: #505050;
+}
+.botinfo {
+  display: flex;
+  padding: 9px;
+  justify-content: space-between;
+  font-size: small;
+  font-family: "Arial Narrow";
+  font-weight: bold;
+  color: #505050;
+}
+.underline {
+  text-decoration: underline;
+}
+.a1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i1 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/28/14/23/macarons-2548810_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -0.1px;
+}
+.a2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i2 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/11/06/17/hot-chocolate-3011492_960_720.jpg");
+  background-size: cover;
+}
+.a3 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i3 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2022/02/11/14/52/waffles-7007465_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -0.1px;
+}
+.a4 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i4 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/07/21/11/17/drink-1532300_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -10px;
+}
+.a5 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i5 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/07/11/25/cupcake-2724786_960_720.png");
+  background-size: cover;
+  background-position: 0px -0.1px;
+}
+.a6 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i6 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2019/11/11/15/32/coffee-4618705_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -0.1px;
+}
+.a7 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i7 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2019/07/25/01/35/kimchi-4361465_960_720.jpg");
+  background-size: cover;
+}
+.a8 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i8 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -9px;
+}
+.a9 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i9 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/03/23/15/ice-1713160_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -1px;
+}
+.a10 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i10 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2014/09/26/19/51/drink-462776_960_720.jpg");
+  background-size: cover;
+  background-position: 0px -14px;
+}
+.a11 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i11 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_960_720.jpg");
+  background-size: cover;
+}
+.a12 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i12 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2013/07/12/16/28/wine-150955_960_720.png");
+  background-size: contain;
+  background-position: 5px 1px;
+}
+.a13 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i13 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_960_720.jpg");
+  background-size: cover;
+  background-position: 0px;
+}
+.a14 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#i14 {
+  width: 23vmin;
+  height: 14vmin;
+  place-self: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/05/14/55/glass-2374311_960_720.jpg");
+  background-size: contain;
+  background-position: 10px 0px;
+}

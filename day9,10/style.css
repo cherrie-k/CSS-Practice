@@ -1,0 +1,179 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #feee91;
+}
+
+.grid {
+  display: grid;
+  border: solid #feee91 0.8vmax;
+  height: 70vw;
+  grid-template:
+    "header header header header" 28px
+    "left pic1 pic2 right" 1fr
+    "footer footer footer footer" 28px / 28px 1fr 1fr 28px;
+}
+
+.header {
+  grid-area: header;
+  border: solid #fc9303 3.5px;
+  display: grid;
+  font-size: 1.7vw;
+  background-color: white;
+}
+.footer {
+  grid-area: footer;
+  border: solid #fc9303 3.5px;
+  display: grid;
+  font-size: 1.7vw;
+  background-color: white;
+}
+.left {
+  grid-area: left;
+  display: grid;
+  grid-template:
+    "l1" 6fr
+    "l2" 4fr
+    "l3" 1fr;
+  border: solid #fc9303;
+  border-width: 0 3.5px 0 3.5px;
+}
+.right {
+  grid-area: right;
+  display: grid;
+  grid-template:
+    "r1" 1fr
+    "r2" 1fr;
+  border: solid #fc9303;
+  border-width: 0 3.5px 0 3.5px;
+}
+
+.pic1 {
+  background-color: blue;
+  grid-area: pic1;
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/25/21/34/bada-bagh-3181803_960_720.jpg");
+  background-size: cover;
+}
+.pic2 {
+  background-color: pink;
+  grid-area: pic2;
+  background-image: url("https://cdn.pixabay.com/photo/2021/07/04/13/23/green-curry-6386360_960_720.jpg");
+  background-position: -80px;
+  background-size: cover;
+}
+.wrapper0 {
+  display: flex;
+  place-content: center;
+  background-color: #fc9303;
+  padding-bottom: 6px;
+}
+.wrapper {
+  display: flex;
+  place-content: center;
+  border-bottom: solid #fc9303 3.5px;
+  border-top: solid #fc9303 3.5px;
+  background-color: white;
+}
+
+span {
+  display: grid;
+  color: #fc9303;
+  font-family: "Arial Narrow";
+  font-style: italic;
+  font-weight: bold;
+  place-content: center;
+}
+#l1 {
+  display: flex;
+  padding-top: 6px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1.4vw;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  grid-area: l1;
+}
+#l2 {
+  align-self: center;
+  text-orientation: sideways-left;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  font-size: 1.4vw;
+  padding: 5px 0px 5px 0px;
+  grid-area: l2;
+}
+#l3 {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  background-color: white;
+  grid-area: l3;
+  font-size: 1.4w;
+}
+.wrapper2 {
+  display: flex;
+  place-content: center;
+  background-color: green;
+  border-bottom: solid #fc9303 3.5px;
+}
+.wrapper3 {
+  display: flex;
+  place-content: center;
+  background-color: green;
+}
+#r1 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1.4vw;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  grid-area: r1;
+  place-self: center;
+}
+#r2 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1.4vw;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  place-self: center;
+  grid-area: r2;
+}
+ul {
+  place-content: center;
+  color: white;
+  font-family: Georgia;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+#curry {
+  position: absolute;
+  place-self: center;
+}
+#hindi {
+  font-size: 45px;
+}
+#chat {
+  size: 20px;
+  background-color: #fc9303;
+  border-radius: 20%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  box-shadow: 1.5px 1.5px 5px gray;
+  position: absolute;
+  top: 67vw;
+  right: 22px;
+}
